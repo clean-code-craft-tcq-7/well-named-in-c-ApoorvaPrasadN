@@ -1,4 +1,4 @@
-/*This function is used to decode the wirenumber into wirecolour and vice-versa*/
+/*This function is used to decode the pairnumber into wirecolours and vice-versa*/
 #include <stdio.h>
 #include <assert.h>
 
