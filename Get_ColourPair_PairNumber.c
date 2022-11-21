@@ -16,3 +16,9 @@ int Get_PairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor * numberOfMinorColors +
             colorPair->minorColor + 1;
 }
+
+void Mapping_ColorPairToString(const ColorPair* colorPair, char* buffer) {
+    sprintf(buffer, "%s %s",
+        MajorColorNames[colorPair->majorColor],
+        MinorColorNames[colorPair->minorColor]);
+}
