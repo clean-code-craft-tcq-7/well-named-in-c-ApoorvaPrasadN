@@ -1,9 +1,9 @@
 /*Function Declaration*/
 extern void Test_PairNumberToColorPair(int pairNumber,enum MajorColor_List expectedMajor,enum MinorColor_List expectedMinor);
 extern void Test_ColorPairToPairNumber(enum MajorColor_List major,enum MinorColor_List minor,int expectedPairNumber);
-void ColorPairToString(const ColorPair* colorPair, char* buffer);
-ColorPair GetColorFromPairNumber(int pairNumber);
-int GetPairNumberFromColor(const ColorPair* colorPair);
+extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
+extern ColorPair GetColorFromPairNumber(int pairNumber);
+extern int GetPairNumberFromColor(const ColorPair* colorPair);
   
 /*variable Declaration*/
 enum MajorColor_List {WHITE, RED, BLACK, YELLOW, VIOLET};
