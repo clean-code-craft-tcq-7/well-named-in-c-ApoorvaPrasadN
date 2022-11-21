@@ -1,8 +1,8 @@
 #include "Test_ColourCode.h"
 
-/*This function is used to test the colour from paired number*/
+/*This function is used to test the paired number from colour pairs*/
 
-void Test_ColorToPairNumber(
+void Test_ColorPairToPairNumber(
     enum MajorColor major,
     enum MinorColor minor,
     int expectedPairNumber)
