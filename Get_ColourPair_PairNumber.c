@@ -1,7 +1,7 @@
 #include "Test_ColourCode.h"
 
 /*This function returns the Color pairs numbers for corresponding pair numbers(given)*/ 
-ColorPair Get_ColorfromPairNumber(int pairNumber) {
+ColorPair Get_ColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
     int zeroBasedPairNumber = pairNumber - 1;
     colorPair.majorColor = 
@@ -11,7 +11,8 @@ ColorPair Get_ColorfromPairNumber(int pairNumber) {
     return colorPair;
 }
 
-int GetPairNumberFromColor(const ColorPair* colorPair) {
+/*This function returns the pair numbers for corresponding Color pairs(given)*/ 
+int Get_PairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor * numberOfMinorColors +
             colorPair->minorColor + 1;
 }
