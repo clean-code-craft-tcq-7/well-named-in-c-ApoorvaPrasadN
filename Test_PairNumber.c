@@ -2,7 +2,7 @@
 
 /*This function is used to test the colour from paired number*/
 
-void testPairToNumber(
+void Test_ColorToPairNumber(
     enum MajorColor major,
     enum MinorColor minor,
     int expectedPairNumber)
