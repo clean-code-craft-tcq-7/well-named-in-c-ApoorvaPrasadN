@@ -4,11 +4,12 @@
 #include "Test.h"
 
 int main() {
+    MajorColor_List Color1= WHITE;
     Test_PairNumberToColorPair(Color1);
     return 0;
 }
 
-void Test_PairNumberToColorPair(Color1 expectedMajor)
+void Test_PairNumberToColorPair(MajorColor_List expectedMajor)
 {
     printf("%d",expectedMajor);
 }
