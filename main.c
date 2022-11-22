@@ -6,17 +6,16 @@ MajorColor_List MajorColor1= WHITE;
 MajorColor_List MajorColor2= BLACK;
 MajorColor_List MajorColor3= VIOLET;
 
-MinorColor_List MajorColor4= BROWN;
-MinorColor_List MajorColor5= SLATE;
-MinorColor_List MajorColor6= ORANGE;
+MinorColor_List MinorColor1= BROWN;
+MinorColor_List MinorColor2= SLATE;
+MinorColor_List MinorColor3= ORANGE;
 
 int main() {
     
-    Test_PairNumberToColorPair(Color1);
+    Test_PairNumberToColorPair(4, MajorColor1,MinorColor1);
+    Test_PairNumberToColorPair(4, MajorColor1,MinorColor2);
+    
+    Test_ColorPairToPairNumber(MajorColor2,MinorColor3, 12);
+    Test_ColorPairToPairNumber(MajorColor3,MinorColor2, 25);
     return 0;
-}
-
-void Test_PairNumberToColorPair(MajorColor_List expectedMajor)
-{
-    printf("%d",expectedMajor);
 }
