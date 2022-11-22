@@ -2,9 +2,16 @@
 #include <stdio.h>
 #include <assert.h>
 #include "Test.h"
+MajorColor_List MajorColor1= WHITE;
+MajorColor_List MajorColor2= BLACK;
+MajorColor_List MajorColor3= VIOLET;
+
+MinorColor_List MajorColor4= BROWN;
+MinorColor_List MajorColor5= SLATE;
+MinorColor_List MajorColor6= ORANGE;
 
 int main() {
-    MajorColor_List Color1= WHITE;
+    
     Test_PairNumberToColorPair(Color1);
     return 0;
 }
