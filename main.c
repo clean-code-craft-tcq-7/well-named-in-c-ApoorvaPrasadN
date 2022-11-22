@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <assert.h>
 
-MajorColor_List{
+typedef enum {
 WHITE =0, 
 RED, 
 BLACK,
 YELLOW, 
 VIOLET
-};
+}MajorColor_List;
 
 void Test_PairNumberToColorPair(MajorColor_List expectedMajor);
 
