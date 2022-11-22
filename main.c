@@ -3,9 +3,6 @@
 #include <assert.h>
 #include "Test.h"
 
-void Test_PairNumberToColorPair(MajorColor_List expectedMajor);
-
-
 int main() {
     MajorColor_List Color1= WHITE;
     Test_PairNumberToColorPair(Color1);
