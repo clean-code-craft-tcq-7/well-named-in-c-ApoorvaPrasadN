@@ -4,7 +4,7 @@
 #include "Test.h"
 
 int main() {
-    MajorColor_List Color1 = WHITE;
+    enum MajorColor_List Color1 = WHITE;
     Test_PairNumberToColorPair(Color1);
     return 0;
 }
