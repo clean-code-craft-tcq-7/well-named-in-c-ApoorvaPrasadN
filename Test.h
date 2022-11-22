@@ -1,4 +1,4 @@
-extern void Test_PairNumberToColorPair(enum MajorColor_List expectedMajor);
+extern void Test_PairNumberToColorPair(Color1 expectedMajor);
 typedef enum{
 WHITE, 
 RED, 
