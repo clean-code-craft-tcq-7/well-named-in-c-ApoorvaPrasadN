@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <assert.h>
 #include "Test_ColourCode.h"
-#define WHITE 0
+
 int main() {
-    Test_PairNumberToColorPair(4, WHITE, BROWN);
+    Test_PairNumberToColorPair(4, (MajorColor_List)WHITE, (MinorColor_List)BROWN);
     Test_PairNumberToColorPair(5, WHITE, SLATE);
 
     Test_ColorPairToPairNumber(BLACK, ORANGE, 12);
