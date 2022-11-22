@@ -25,7 +25,7 @@ int numberOfMinorColors =
 const int MAX_COLORPAIR_NAME_CHARS = 16;
 
 typedef struct {
-    MajorColor_List majorColor;
-    MinorColor_List minorColor;
+    enum MajorColor_List majorColor;
+    enum MinorColor_List minorColor;
 } ColorPair;
 
