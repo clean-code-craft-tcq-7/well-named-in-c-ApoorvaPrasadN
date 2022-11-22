@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /*Function Declaration*/
-extern void Test_PairNumberToColorPair(int pairNumber,MajorColor_List expectedMajor,MinorColor_List expectedMinor);
+extern void Test_PairNumberToColorPair(int pairNumber,enum MajorColor_List expectedMajor,enum MinorColor_List expectedMinor);
 extern void Test_ColorPairToPairNumber(MajorColor_List major,MinorColor_List minor,int expectedPairNumber);
 extern ColorPair Get_ColorFromPairNumber(int pairNumber);
 extern int Get_PairNumberFromColor(const ColorPair* colorPair);
@@ -9,8 +9,8 @@ extern void Mapping_ColorPairToString(const ColorPair* colorPair, char* buffer);
 extern void Mapping_StringToColorPair(char* buffer,const ColorPair* colorPair);
   
 /*variable Declaration*/
-enum MajorColor_List{WHITE, RED, BLACK, YELLOW, VIOLET};
-enum MinorColor_List{BLUE, ORANGE, GREEN, BROWN, SLATE};
+enum MajorColor_List {WHITE, RED, BLACK, YELLOW, VIOLET};
+enum MinorColor_List {BLUE, ORANGE, GREEN, BROWN, SLATE};
 
 const char* MajorColorNames_Array[] = {
     "White", "Red", "Black", "Yellow", "Violet"
