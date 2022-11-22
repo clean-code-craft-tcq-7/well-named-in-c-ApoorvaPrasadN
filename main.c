@@ -6,8 +6,8 @@ int main() {
     Test_PairNumberToColorPair(4, WHITE, BROWN);
     Test_PairNumberToColorPair(5, WHITE, SLATE);
 
-    testPairToNumber(BLACK, ORANGE, 12);
-    testPairToNumber(VIOLET, SLATE, 25);
+    Test_ColorPairToPairNumber(BLACK, ORANGE, 12);
+    Test_ColorPairToPairNumber(VIOLET, SLATE, 25);
 
     return 0;
 }
