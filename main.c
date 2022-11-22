@@ -13,7 +13,7 @@ MinorColor_List MinorColor3= ORANGE;
 int main() {
     
     Test_PairNumberToColorPair(4, MajorColor1,MinorColor1);
-    Test_PairNumberToColorPair(4, MajorColor1,MinorColor2);
+    Test_PairNumberToColorPair(5, MajorColor1,MinorColor2);
     
     Test_ColorPairToPairNumber(MajorColor2,MinorColor3, 12);
     Test_ColorPairToPairNumber(MajorColor3,MinorColor2, 25);
