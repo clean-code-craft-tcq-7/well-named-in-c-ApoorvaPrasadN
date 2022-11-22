@@ -14,8 +14,6 @@ int numberOfMajorColors =
 int numberOfMinorColors =
     sizeof(MinorColorNames_Array) / sizeof(MinorColorNames_Array[0]);
 
-const int MAX_COLORPAIR_NAME_CHARS = 16;
-
 typedef struct {
     MajorColor_List majorColor;
     MinorColor_List minorColor;
