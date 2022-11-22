@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 /*Function Declaration*/
 extern void Test_PairNumberToColorPair(int pairNumber,MajorColor_List expectedMajor,MinorColor_List expectedMinor);
 extern void Test_ColorPairToPairNumber(MajorColor_List major,MinorColor_List minor,int expectedPairNumber);
