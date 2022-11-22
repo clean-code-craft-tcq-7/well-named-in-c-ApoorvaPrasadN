@@ -1,4 +1,6 @@
 #include "Test.h"
+#include <stdio.h>
+#include <assert.h>
 
 /*This function returns the Color pairs numbers for corresponding pair numbers(given)*/ 
 ColorPair Get_ColorFromPairNumber(int pairNumber) {
