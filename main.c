@@ -2,10 +2,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include "Test_ColourCode.h"
-
-enum MajorColor_List {WHITE, RED, BLACK, YELLOW, VIOLET};
-enum MinorColor_List {BLUE, ORANGE, GREEN, BROWN, SLATE};
-
+#define WHITE 0
 int main() {
     Test_PairNumberToColorPair(4, WHITE, BROWN);
     Test_PairNumberToColorPair(5, WHITE, SLATE);
