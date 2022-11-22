@@ -4,6 +4,7 @@
 #include "Test.h"
 
 int main() {
+    MajorColor_List Color1 = WHITE;
     Test_PairNumberToColorPair(WHITE);
     return 0;
 }
