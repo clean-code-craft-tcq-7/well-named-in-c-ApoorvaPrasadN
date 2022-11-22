@@ -9,8 +9,8 @@ extern void Mapping_ColorPairToString(const ColorPair* colorPair, char* buffer);
 extern void Mapping_StringToColorPair(char* buffer,const ColorPair* colorPair);
   
 /*variable Declaration*/
-enum {WHITE, RED, BLACK, YELLOW, VIOLET}MajorColor_List;
-enum MinorColor_List {BLUE, ORANGE, GREEN, BROWN, SLATE};
+enum MajorColor_List{WHITE, RED, BLACK, YELLOW, VIOLET};
+enum MinorColor_List{BLUE, ORANGE, GREEN, BROWN, SLATE};
 
 const char* MajorColorNames_Array[] = {
     "White", "Red", "Black", "Yellow", "Violet"
