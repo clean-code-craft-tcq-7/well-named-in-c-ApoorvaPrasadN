@@ -1,9 +1,9 @@
-void Test_PairNumberToColorPair(Color1 expectedMajor);
-typedef enum{
+void Test_PairNumberToColorPair(MajorColor_List expectedMajor);
+typedef enum {
 WHITE =0, 
 RED, 
 BLACK,
 YELLOW, 
 VIOLET
 }MajorColor_List;
-MajorColor_List Color1;
+
