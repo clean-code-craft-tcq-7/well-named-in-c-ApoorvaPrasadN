@@ -5,6 +5,6 @@
 
 int main() {
     MajorColor_List Color1 = WHITE;
-    Test_PairNumberToColorPair(WHITE);
+    Test_PairNumberToColorPair(Color1);
     return 0;
 }
