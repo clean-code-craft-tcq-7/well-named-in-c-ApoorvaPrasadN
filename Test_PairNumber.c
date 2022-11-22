@@ -3,8 +3,8 @@
 /*This function is used to test the paired number from colour pairs*/
 
 void Test_ColorPairToPairNumber(
-    enum MajorColor_List  major,
-    enum MinorColor_List minor,
+    MajorColor_List major,
+    MinorColor_List minor,
     int expectedPairNumber)
 {
     ColorPair colorPair;
