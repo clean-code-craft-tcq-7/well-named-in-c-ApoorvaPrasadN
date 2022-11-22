@@ -3,8 +3,8 @@
 /*This function is used to test the colour pairs from paired number*/
 
 void Test_PairNumberToColorPair(int pairNumber,
-    MajorColor_List expectedMajor,
-    MinorColor_List expectedMinor)
+    enum MajorColor_List expectedMajor,
+    enum MinorColor_List expectedMinor)
 {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
     char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
