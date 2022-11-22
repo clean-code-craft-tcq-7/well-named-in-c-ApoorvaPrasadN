@@ -23,4 +23,8 @@ typedef struct {
 
 void Test_PairNumberToColorPair(int pairNumber,MajorColor_List expectedMajor,MinorColor_List expectedMinor);
 void Test_ColorPairToPairNumber(MajorColor_List major,MinorColor_List minor,int expectedPairNumber);
+ColorPair Get_ColorFromPairNumber(int pairNumber);
+int Get_PairNumberFromColor(const ColorPair* colorPair);
+void Mapping_ColorPairToString(const ColorPair* colorPair, char* buffer);
+void Mapping_StringToColorPair(char* buffer,const ColorPair* colorPair);
 
