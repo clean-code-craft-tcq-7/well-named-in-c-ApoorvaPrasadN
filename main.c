@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <assert.h>
 #include "Test.h"
-MajorColor_List Color1 = WHITE;
+Color1 Colorno1= WHITE;
 
 int main() {
-    Test_PairNumberToColorPair(Color1);
+    Test_PairNumberToColorPair(Colorno1);
     return 0;
 }
