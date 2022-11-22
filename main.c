@@ -1,6 +1,7 @@
 /*This function is used to decode the pairnumber into wirecolours and vice-versa*/
 #include <stdio.h>
 #include <assert.h>
+#include "Test_ColourCode.h"
 
 int main() {
     Test_PairNumberToColorPair(4, WHITE, BROWN);
