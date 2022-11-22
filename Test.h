@@ -1,6 +1,6 @@
 /*Variable declaration*/
 typedef enum {WHITE=0, RED, BLACK,YELLOW, VIOLET}MajorColor_List;
-typedef enum {BLUE=0 ORANGE, GREEN, BROWN, SLATE}MinorColor_List;
+typedef enum {BLUE=0,ORANGE, GREEN, BROWN, SLATE}MinorColor_List;
 
 const char* MajorColorNames_Array[] = {
     "White", "Red", "Black", "Yellow", "Violet"
