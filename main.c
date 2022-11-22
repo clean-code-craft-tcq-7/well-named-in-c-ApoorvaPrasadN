@@ -1,14 +1,7 @@
 /*This function is used to decode the pairnumber into wirecolours and vice-versa*/
 #include <stdio.h>
 #include <assert.h>
-
-typedef enum {
-WHITE =0, 
-RED, 
-BLACK,
-YELLOW, 
-VIOLET
-}MajorColor_List;
+#include "Test.h"
 
 void Test_PairNumberToColorPair(MajorColor_List expectedMajor);
 
