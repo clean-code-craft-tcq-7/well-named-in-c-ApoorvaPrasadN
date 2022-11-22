@@ -4,8 +4,7 @@
 #include "Test.h"
 
 int main() {
-    Color1 Colorno1= WHITE;
-    Test_PairNumberToColorPair(Colorno1);
+    Test_PairNumberToColorPair(Color1);
     return 0;
 }
 
