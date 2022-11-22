@@ -5,9 +5,9 @@ ColorPair Get_ColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
     int zeroBasedPairNumber = pairNumber - 1;
     colorPair.majorColor = 
-        (enum MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
+        (enum MajorColor_List)(zeroBasedPairNumber / numberOfMinorColors);
     colorPair.minorColor =
-        (enum MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
+        (enum MinorColor_List)(zeroBasedPairNumber % numberOfMinorColors);
     return colorPair;
 }
 
@@ -19,9 +19,9 @@ int Get_PairNumberFromColor(const ColorPair* colorPair) {
 
 void Mapping_ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
-        MajorColorNames[colorPair->majorColor],
-        MinorColorNames[colorPair->minorColor]);
+        MajorColorNames_Array[colorPair->majorColor],
+        MinorColorNames_Array[colorPair->minorColor]);
 }
 void Mapping_StringToColorPair(char* buffer,const ColorPair* colorPair) {
-    sprintf(MajorColorNames[colorPair->majorColor],MinorColorNames[colorPair->minorColor], "%s",buffer);
+    sprintf(MajorColorNames_Array[colorPair->majorColor],MinorColorNames_Array[colorPair->minorColor], "%s",buffer);
 }
