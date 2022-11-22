@@ -2,9 +2,14 @@
 #include <stdio.h>
 #include <assert.h>
 #include "Test.h"
-Color1 Colorno1= WHITE;
 
 int main() {
+    Color1 Colorno1= WHITE;
     Test_PairNumberToColorPair(Colorno1);
     return 0;
+}
+
+void Test_PairNumberToColorPair(Color1 expectedMajor)
+{
+    printf("%d",expectedMajor);
 }
