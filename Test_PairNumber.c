@@ -4,7 +4,7 @@
 
 void Test_PairNumberToColorPair(int pairNumber,MajorColor_List expectedMajor,MinorColor_List expectedMinor)
 {
-    ColorPair colorPair = (ColorPair)(GetColorFromPairNumber(pairNumber));
+    ColorPair colorPair = GetColorFromPairNumber(pairNumber);
     char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
     Mapping_ColorPairToString(&colorPair, colorPairNames);
     printf("Got pair %s\n", colorPairNames);
