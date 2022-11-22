@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <assert.h>
 #include "Test.h"
+MajorColor_List Color1 = WHITE;
 
 int main() {
-    enum MajorColor_List Color1 = WHITE;
     Test_PairNumberToColorPair(Color1);
     return 0;
 }
