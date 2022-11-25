@@ -12,5 +12,4 @@ void Test_ColorPairToPairNumber(MajorColor_List major,MinorColor_List minor,int 
 ColorPair Get_ColorFromPairNumber(int pairNumber);
 int Get_PairNumberFromColor(const ColorPair* colorPair);
 void Mapping_ColorPairToString(const ColorPair* colorPair, char* buffer);
-Mapping_StringToColorPair(const ColorPair* colorPair,int pairnumber);
-
+void Mapping_StringToColorPair(char* buffer,const ColorPair* colorPair);
