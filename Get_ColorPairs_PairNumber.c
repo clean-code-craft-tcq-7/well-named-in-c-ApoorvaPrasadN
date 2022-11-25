@@ -25,6 +25,6 @@ void Mapping_ColorPairToString(const ColorPair* colorPair, char* buffer) {
         MajorColorNames_Array[colorPair->majorColor],
         MinorColorNames_Array[colorPair->minorColor]);
 }
-void Mapping_StringToColorPair(const ColorPair* colorPair,int pairnumber) {
-    sprintf(MajorColorNames_Array[colorPair->majorColor],MinorColorNames_Array[colorPair->minorColor], "%d",pairnumber);
+void Mapping_StringToColorPair(char* buffer,const ColorPair* colorPair) {
+    sprintf(MajorColorNames_Array[colorPair->majorColor],MinorColorNames_Array[colorPair->minorColor], "%s",buffer);
 }
