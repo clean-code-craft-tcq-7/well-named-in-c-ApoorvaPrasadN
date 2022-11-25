@@ -7,7 +7,7 @@ void Test_ColorPairToPairNumber(MajorColor_List major,MinorColor_List minor,int 
     colorPair.majorColor = major;
     colorPair.minorColor = minor;
     int pairNumber = Get_PairNumberFromColor(&colorPair);
-    Mapping_StringToColorPair(char* buffer,const ColorPair* colorPair);
-    printf("Got pair number %d\n", pairNumber);
+    Mapping_StringToColorPair(&colorPairNames,colorPair);
+    printf("Got pair number %d\n", colorPair);
     assert(pairNumber == expectedPairNumber);  
 }
